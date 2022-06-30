@@ -1,16 +1,66 @@
-h1 {
+#temperature {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.units {
+  position: relative;
+  bottom: 40px;
+  font-size: 13px;
+}
+/* .icon-weather {
+  margin-bottom: 50px;
+} */
+#city {
+  line-height: 28px;
+  padding: 10px;
+  /* font-size: large; */
+}
+
+ul {
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+li {
+  color: #7c7c7c;
+  font-size: 18px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 1;
+  list-style: none;
+}
+
+li:first-letter {
+  text-transform: capitalize;
+}
+a {
+  text-decoration: none;
+}
+.result .active {
+  color: black;
+  cursor: default;
+}
+.result .active:hover {
+  text-decoration: none;
+}
+
+.weather-forecast {
+  margin-top: 20px;
   text-align: center;
+  color: #000;
+}
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.6;
+}
+.weather-forecast-temperatures {
+  font-size: 13px;
+}
+.weather-forecast-temperature-min {
+  opacity: 0.5;
 }
 
-img {
-  width: 90%;
-  margin: 20px auto;
-  border-radius: 20px;
-  display: block;
-}
-
-.contact-btn {
-  display: block;
-  margin: 0 auto;
-  width: 200px;
+footer {
+  margin-top: 70px;
 }
